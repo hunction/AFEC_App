@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout-land/activity_landscape.xml" value="0.264" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.190234375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout/activity_lands.xml" value="0.12" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout/switch_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/layout/toolbar_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/AFEC/app/src/main/res/menu/actionbar_action.xml" value="0.264" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/AFEC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2395" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/AFEC/app/src/main/res/drawable/square_back.xml" value="0.101" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/AFEC/app/src/main/res/layout/activity_lands.xml" value="0.18" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/AFEC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/AFEC/app/src/main/res/layout/toolbar_main.xml" value="0.34074074074074073" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/apec_final/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/apec_final/app/src/main/res/layout/toolbar_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ajoua/AndroidStudioProjects/apec_final/app/src/main/res/menu/actionbar_action.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

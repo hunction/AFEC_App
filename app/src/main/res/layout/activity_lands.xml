@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnTh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="10P"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/btnBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="숫자" />
+
+
+                <RadioButton
+                    android:id="@+id/btnRed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="대문자" />
+
+                <RadioButton
+                    android:id="@+id/btnGreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="소문자" />
+
+                <RadioButton
+                    android:id="@+id/btnBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기호" />
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Clear"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/paintLayout"
+                android:layout_width="1000dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="200dp"
+                android:background="@color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/background2"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <Button
+                    android:id="@+id/server"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:text="서버 연결"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCal"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="ScreenshotButton"
+                    android:text="갤러리 저장"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/solve"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="계산"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cafe24ssurround"
+                android:text="입력 받은 수식 출력 : "
+                android:background="@color/background"
+                android:id="@+id/textCal"
+                android:textSize="30sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cafe24ssurround"
+                android:text="계산 결과 출력 : "
+                android:id="@+id/textCal_2"
+                android:textSize="30sp"
+                android:background="@color/background"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/paintLayout_2"
+                    android:layout_width="1000dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="left"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="200dp"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:background="@color/background2"
+                    android:gravity="end">
+
+
+                    <Button
+                        android:id="@+id/btnCal_2"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:onClick="ScreenshotButton_2"
+                        android:text="갤러리 저장" />
+
+                    <Button
+                        android:id="@+id/apply"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:textStyle="bold"
+                        android:text="변수 적용" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="함수의 그래프 출력"
+                        android:background="@color/background"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/cafe24ssurround" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/imageView01"
+                        android:layout_width="282dp"
+                        android:layout_height="249dp"
+                        android:layout_marginTop="30dp"
+                        android:adjustViewBounds="true" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/background">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cafe24ssurround"
+                        android:text="계산 내역"
+                        android:textSize="30sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="히스토리 업데이트 : "
+                        android:id="@+id/text3"
+                        android:textSize="30sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="히스토리1"
+                        android:id="@+id/history1"
+                        android:textSize="30sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="히스토리2"
+                        android:id="@+id/history2"
+                        android:textSize="30sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="히스토리3"
+                        android:id="@+id/history3"
+                        android:textSize="30sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
